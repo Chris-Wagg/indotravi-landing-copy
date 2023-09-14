@@ -19,3 +19,11 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Disclaimer
+
+I do not own any of the original work, the whole purpose of this work is as a portfolio item. All inspiration can be found at the following...
+
+https://dribbble.com/shots/22540289-Indotravi-Travel-Landing-Page
+https://dribbble.com/Anamkhrl
+https://dribbble.com/columbusstudio
