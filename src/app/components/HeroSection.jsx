@@ -15,7 +15,7 @@ export default function HeroSection() {
 						<button>Contact</button>
 					</section>
 					<section class='flex gap-6'>
-						<button className='language-swapper'>EN/SWE</button>
+						{/* <button className='language-swapper'>EN/SWE</button> */}
 						<button class='px-8 bg-white rounded-full '>
 							Login
 						</button>
