@@ -1,3 +1,5 @@
+import DropdownMenu from './DropdownMenu'
+
 export default function HeroSection() {
 	return (
 		<>
@@ -32,9 +34,8 @@ export default function HeroSection() {
 					</div>
 					{/* middle nav */}
 					<section class='flex bg-gray-300 rounded-full  p-3 max-w-lg backdrop-filter backdrop-blur-lg bg-opacity-20  border-t border-gray-300 text-white'>
-						<div class='flex gap-6 border-r-2 px-4  '>
-							<button>Date</button>
-							<button>v</button>
+						<div class='flex items-center border-r-2 px-4  '>
+							<DropdownMenu />
 						</div>
 						<div class='flex gap-6 border-r-2 px-4 '>
 							<button>Location</button>
