@@ -3,7 +3,7 @@ import { Menu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-export default function LocationDropdown() {
+export default function GuestsDropdown() {
 	return (
 		<div className=''>
 			<Menu as='div' className='relative inline-block text-left'>
@@ -18,12 +18,12 @@ export default function LocationDropdown() {
 						<path
 							strokeLinecap='round'
 							strokeLinejoin='round'
-							d='M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z'
+							d='M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z'
 						/>
 					</svg>
 
 					<Menu.Button className='flex items-center rounded-md text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 pl-2'>
-						Locations
+						Guests
 						<ChevronDownIcon
 							className='ml-2 -mr-1 h-5 w- text-white hover:text-white'
 							aria-hidden='true'
@@ -48,7 +48,7 @@ export default function LocationDropdown() {
 												? 'bg-gray-900 text-white'
 												: 'text-gray-900'
 										} group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
-										The Shire
+										1-5
 									</button>
 								)}
 							</Menu.Item>
@@ -62,7 +62,7 @@ export default function LocationDropdown() {
 												? 'bg-gray-900 text-white'
 												: 'text-gray-900'
 										} group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
-										Riveldell
+										5-10
 									</button>
 								)}
 							</Menu.Item>
@@ -76,7 +76,7 @@ export default function LocationDropdown() {
 												? 'bg-gray-900 text-white'
 												: 'text-gray-900'
 										} group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
-										Helm's Deep
+										10-20
 									</button>
 								)}
 							</Menu.Item>
@@ -90,21 +90,7 @@ export default function LocationDropdown() {
 												? 'bg-gray-900 text-white'
 												: 'text-gray-900'
 										} group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
-										Minas Tirith
-									</button>
-								)}
-							</Menu.Item>
-						</div>
-						<div className='px-1 py-1 '>
-							<Menu.Item>
-								{({ active }) => (
-									<button
-										className={`${
-											active
-												? 'bg-gray-900 text-white'
-												: 'text-gray-900'
-										} group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
-										Mt Doom
+										20+
 									</button>
 								)}
 							</Menu.Item>
