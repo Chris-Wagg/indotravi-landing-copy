@@ -1,4 +1,4 @@
-import DropdownMenu from './DropdownMenu'
+import LocationDropdown from './LocationDropdown'
 
 export default function HeroSection() {
 	return (
@@ -7,13 +7,13 @@ export default function HeroSection() {
 				{/* nav bar start */}
 				<nav class='sticky top-0 z-10 flex justify-between content-center px-8 py-4 relative '>
 					<div class='flex items-center text-2xl font-semibold text-white'>
-						KiwiTravel
+						M-E Travel
 					</div>
-					<section class='flex gap-10 bg-gray-300 px-16 py-3 rounded-full backdrop-filter backdrop-blur-lg bg-opacity-20 border-t border-gray-300 text-white'>
+					<section class='flex gap-10 px-16 py-3 rounded-full bg-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-20 border-t border-gray-300 text-white'>
 						<button>About</button>
 						<button>Services</button>
 						<button>Tour</button>
-						<button>About</button>
+						<button>Insurance</button>
 						<button>Contact</button>
 					</section>
 					<section class='flex gap-6'>
@@ -35,7 +35,7 @@ export default function HeroSection() {
 					{/* middle nav */}
 					<section class='flex bg-gray-300 rounded-full  p-3 max-w-lg backdrop-filter backdrop-blur-lg bg-opacity-20  border-t border-gray-300 text-white'>
 						<div class='flex items-center border-r-2 px-4  '>
-							<DropdownMenu />
+							<LocationDropdown />
 						</div>
 						<div class='flex gap-6 border-r-2 px-4 '>
 							<button>Location</button>
