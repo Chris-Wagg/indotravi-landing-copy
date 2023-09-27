@@ -13,12 +13,22 @@ export default function HeroSection() {
 					<div class='flex items-center text-2xl font-semibold text-white'>
 						M-E Travel
 					</div>
-					<section class='flex gap-10 px-16 py-3 rounded-full bg-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-20 border-t border-gray-300 text-white'>
-						<button>About</button>
-						<button>Services</button>
-						<button>Tour</button>
-						<button>Insurance</button>
-						<button>Contact</button>
+					<section class='flex gap-2 px-10 py-1 rounded-full bg-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-20 border-t border-gray-300 text-white'>
+						<button class=' rounded-full px-2 py-1 hover:bg-gray-500 active:bg-gray-700'>
+							About
+						</button>
+						<button class=' rounded-full px-3 py-1 hover:bg-gray-500 active:bg-gray-700'>
+							Services
+						</button>
+						<button class=' rounded-full px-3 py-1 hover:bg-gray-500 active:bg-gray-700'>
+							Tour
+						</button>
+						<button class=' rounded-full px-3 py-1 hover:bg-gray-500 active:bg-gray-700'>
+							Insurance
+						</button>
+						<button class=' rounded-full px-3 py-1 hover:bg-gray-500 active:bg-gray-700'>
+							Contact
+						</button>
 					</section>
 					<section class='flex gap-6'>
 						{/* <button className='language-swapper'>EN/SWE</button> */}
