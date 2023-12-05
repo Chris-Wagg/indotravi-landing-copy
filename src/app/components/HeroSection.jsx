@@ -41,12 +41,15 @@ export default function HeroSection() {
 
 				{/* hero section start */}
 				<section class='relative flex flex-col justify-center items-center max-w-full max-h-full text-center'>
-					<div class='text-6xl font-semibold px-10 text-white pb-4'>
+					<h1 class='text-8xl font-semibold px-10 text-white pb-4'>
+						Middle Earth Travel Agency
+					</h1>
+					<p class='text-4xl font-semibold px-10 text-white pb-4'>
 						Hey, isn't that the place from the Lord of the Rings?
-					</div>
-					<div class='pb-8 text-white'>
+					</p>
+					<p class='pb-8 text-2xl text-white'>
 						Yea, you're probably right
-					</div>
+					</p>
 					{/* middle nav */}
 					<section class='flex bg-gray-300 rounded-full  p-3 backdrop-filter backdrop-blur-lg bg-opacity-20  border-t border-gray-300 text-white'>
 						<div class='flex items-center border-r-2 px-4'>
