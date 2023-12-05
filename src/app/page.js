@@ -1,5 +1,13 @@
-import Image from 'next/image'
+import HeroSection from './components/HeroSection'
+import StatsCards from './components/StatsCards'
+import SectionTwo from './components/SectionTwo'
 
 export default function Home() {
-	return <div>Hello world</div>
+	return (
+		<>
+			<HeroSection />
+			{/* <StatsCards /> */}
+			<SectionTwo />
+		</>
+	)
 }
