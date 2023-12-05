@@ -40,7 +40,7 @@ export default function HeroSection() {
 				</nav>
 
 				{/* hero section start */}
-				<section class='relative flex flex-col place-items-center max-w-full max-h-full text-center'>
+				<section class='relative flex flex-col justify-center items-center max-w-full max-h-full text-center'>
 					<div class='text-6xl font-semibold px-10 text-white pb-4'>
 						Hey, isn't that the place from the Lord of the Rings?
 					</div>
@@ -65,7 +65,7 @@ export default function HeroSection() {
 						</div>
 					</section>
 				</section>
-				<StatsCards />
+				<div></div>
 			</div>
 		</>
 	)
