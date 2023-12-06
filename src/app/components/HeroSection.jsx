@@ -6,9 +6,7 @@ import StatsCards from './StatsCards'
 export default function HeroSection() {
 	return (
 		<>
-			<div class='w-screen h-screen bg-[url(https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80)] bg-cover bg-center bg-fixed flex flex-col justify-between'>
-				{/* adjust the background image size to be like w-11/12 */}
-				{/* at tablet size there is a slight shrimking of the background, fix this later. Also generally fix the background so it sits behind the elements at like 95% height somehow*/}
+			<section class='hero-section'>
 				{/* nav bar start */}
 				<nav class='sticky top-0 z-10 flex justify-between content-center px-8 py-4 relative '>
 					<div class='flex items-center text-2xl font-semibold text-white'>
@@ -32,7 +30,6 @@ export default function HeroSection() {
 						</button>
 					</section>
 					<section class='flex gap-6'>
-						{/* <button className='language-swapper'>EN/SWE</button> */}
 						<button class='px-8 bg-white rounded-full '>
 							Login
 						</button>
@@ -40,7 +37,7 @@ export default function HeroSection() {
 				</nav>
 
 				{/* hero section start */}
-				<section class='relative flex flex-col justify-center items-center max-w-full max-h-full text-center'>
+				<section class='content-grid'>
 					<h1 class='text-8xl font-semibold px-10 text-white pb-4'>
 						Middle Earth Travel Agency
 					</h1>
@@ -69,7 +66,7 @@ export default function HeroSection() {
 					</section>
 				</section>
 				<div></div>
-			</div>
+			</section>
 		</>
 	)
 }
